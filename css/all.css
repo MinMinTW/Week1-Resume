@@ -70,9 +70,9 @@ body{
     margin: 0 auto;
   }
   .clearfix:after{
-  content:'';
-  display:table;
-  clear:both;
+    content:'';
+    display:table;
+    clear:both;
   }
   .header_name{
     text-align: left;
@@ -141,11 +141,16 @@ body{
   .footer{
     background-color: black;
     padding: 64px 0;
+    text-align: center;
   }
   .media{
-    display: flex;
-    justify-content:center;
+    display: inline-block;
   }
-  .mr40{
+  .media li{
+    display: inline-block;
+    vertical-align: middle;
     margin-right: 40px;
+  }
+  .media li:last-child{
+    margin-right: 0;
   }
