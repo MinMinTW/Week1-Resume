@@ -1,0 +1,151 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+    font-family: "Castoro", serif;
+  }
+  img{
+    max-width:100%;
+    height: auto;
+    vertical-align: middle;
+  }
+  a{
+    text-decoration:none;
+    color: black
+  }
+  a:hover{
+    font-weight: bolder;
+  }
+  *,*::before,*::after{
+    box-sizing:border-box
+  }
+  .container{
+    width: 1296px;
+    margin: 0 auto;
+  }
+  .clearfix:after{
+  content:'';
+  display:table;
+  clear:both;
+  }
+  .header_name{
+    text-align: left;
+    font-size: 128px;
+    line-height: 192px;
+    letter-spacing:0.12em;
+    margin-top: 160px;
+  }
+  .header_pic{
+    width: 636px;
+    margin: 0 auto;
+  }
+  .header_content{
+    text-align: right;
+    font-size: 128px;
+    line-height: 192px ;
+  }
+  .introduction_bg{
+    height: 432px;
+    background-color: #EFEFEF;
+    margin-bottom: 80px;
+  }
+  .introduction_content{
+    width: 636px;
+    font-size: 32px;
+    line-height: 48px;
+    float: right;
+    margin-top: 48px;
+  }
+  .cards{
+    margin-bottom: 160px;
+  }
+  .cards_info{
+    width: 636px
+  }
+  .cards_info h3{
+    font-size: 40px;
+    line-height: 60px;
+    margin-top: 40px;
+    color: #AE0000;
+    border-bottom: solid 3px #AE0000
+  }
+  .pd-top8{
+    padding-top:8px
+  }
+  .info_contact, .info_content,.info_award{
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .info_contact{
+    margin-top: 8px;
+  }
+  .info_period{
+    font-size: 20px;
+    line-height: 30px;
+    font-style: italic;
+    color: #949494;
+    margin-top: 16px;
+  }
+  .info_award{
+    margin-top: 12px;
+  }
+  .pd-top4{
+    padding-top:4px;
+  }
+  .footer{
+    background-color: black;
+    padding: 64px 0;
+  }
+  .media{
+    display: flex;
+    justify-content:center;
+  }
+  .mr40{
+    margin-right: 40px;
+  }
