@@ -49,6 +49,7 @@ table {
 
 body{
     font-family: "Castoro", serif;
+    line-height: 1.5;
   }
   img{
     max-width:100%;
@@ -69,17 +70,12 @@ body{
     width: 1296px;
     margin: 0 auto;
   }
-  .clearfix:after{
-    content:'';
-    display:table;
-    clear:both;
-  }
+  
   .header_name{
     text-align: left;
     font-size: 128px;
-    line-height: 192px;
     letter-spacing:0.12em;
-    margin-top: 160px;
+    padding-top: 160px;
   }
   .header_pic{
     width: 636px;
@@ -88,19 +84,16 @@ body{
   .header_content{
     text-align: right;
     font-size: 128px;
-    line-height: 192px ;
   }
   .introduction_bg{
-    height: 432px;
     background-color: #EFEFEF;
     margin-bottom: 80px;
+    padding: 48px 0;
   }
   .introduction_content{
     width: 636px;
     font-size: 32px;
-    line-height: 48px;
-    float: right;
-    margin-top: 48px;
+    margin-left: auto
   }
   .cards{
     margin-bottom: 160px;
@@ -110,7 +103,6 @@ body{
   }
   .cards_info h3{
     font-size: 40px;
-    line-height: 60px;
     margin-top: 40px;
     color: #AE0000;
     border-bottom: solid 3px #AE0000
@@ -120,14 +112,12 @@ body{
   }
   .info_contact, .info_content,.info_award{
     font-size: 24px;
-    line-height: 36px;
   }
   .info_contact{
     margin-top: 8px;
   }
   .info_period{
     font-size: 20px;
-    line-height: 30px;
     font-style: italic;
     color: #949494;
     margin-top: 16px;
